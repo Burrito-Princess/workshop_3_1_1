@@ -1,0 +1,52 @@
+.flexbox{
+    display: flex;
+}
+
+.line{
+    border: 5px solid black;
+    width: 0px;
+}
+
+#right{
+    font-size: 20px;
+    width: 40%;
+    float: right;
+    line-height: 2;
+}
+
+#left{
+    width: 25%;
+    float: left;
+    text-align: right;
+    font-size: 20px;
+    line-height: 2;
+}
+
+#arms{
+    width: 100px;
+}
+
+#backbutton{
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+#homelink{
+    height: 100px;
+    width: 8%;
+    margin-right: 10px;
+    
+}
+
+#menubar{
+    display: flex;
+    justify-content: flex-start;
+}
+
+#title{
+    margin: 50px;
+    margin-left: 300px;
+    font-size: xx-large;
+    font-weight: bold;
+}

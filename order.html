@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Order</title>
+    <link rel="stylesheet" href="./assets/css/order.css">
+</head>
+<body>
+    <div id="menubar">
+        <div id="homelink">
+            <a  href="/index.html">
+                <img id="arms" src="/assets/coatofarms.png">
+            </a>
+        </div>
+        <p>
+            <input id="backbutton" type="button" value="back" onclick="location.href='/details.html'">
+        </p>
+    
+        <div id="title">
+            Fill out your information
+        </div>
+    </div>
+    <div class="flexbox">
+        <div id="left">
+            name:&nbsp;
+            <br>
+            adress:&nbsp;
+            <br>
+            phonenumber:&nbsp;
+            <br>
+            e-mail:&nbsp;
+            <br>
+            bank information:&nbsp;
+        </div>
+        <div class="line"></div>
+        <div id="right">
+            <form action="/thankspage.html" method="get">
+                &nbsp;<input id="name" name="fname" placeholder="first name" type="text"><input id="tussenv" name="tussenv" placeholder="tussenv" type="text"><input id="lastname" name="Lname" placeholder="last name" type="text">
+                <br>
+                &nbsp;<input id="street" name="street" placeholder="street name" type="text"><input id="housenumber" name="numberstreet" placeholder="housenumber" type="text"><input id="postalcode" name="postcode" placeholder="postal code" type="text"><input id="city" name="city" placeholder="city/town" type="text">
+                <br>
+                &nbsp;<input id="phonenumber" name="P#" placeholder="Phone number" type="text">
+                <br>
+                &nbsp;<input id="email" name="email" placeholder="e-mail adress" type="text">
+                <br>
+                &nbsp;<input id="bankinfo" name="bankinfo" placeholder="bank account number" type="text">
+                <br>
+                &nbsp;<input id="confirm" value="submit" type="submit">
+            </form>
+        </div>
+    </div>
+</body>
+</html>

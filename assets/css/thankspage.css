@@ -1,0 +1,39 @@
+#arms{
+    width: 100px;
+}
+
+#backbutton{
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+#homelink{
+    height: 100px;
+    width: 8%;
+    margin-right: 10px;
+    
+}
+
+#menubar{
+    display: flex;
+    justify-content: flex-start;
+}
+
+#title{
+    margin: 50px;
+    margin-left: 300px;
+    font-size: xx-large;
+    font-weight: bold;
+}
+
+#subtitle{
+    margin: 50px;
+    margin-left: 300px;
+    font-size: x-large;
+    font-weight: bold;
+}
+
+#information{
+    border: 5px solid black
+}
